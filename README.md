@@ -3,10 +3,10 @@
 Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in that locale. It currently covers more than 100,000 cities and 220 countries worldwide. People who own properties are called hosts.  Customers usually look for accommodation in the desired area and choose what they prefer according to facilities, price/night, transportation availability, and so on. In this project, we will discover and analyze the data provided by Airbnb for 2 famous cities, Seattle and Boston in the US to answer some business questions related to Airbnb activities, using Python.
 
 ## Libraries Used:
-- Pandas: Fast, powerful, flexible, and easy to use open-source data analysis and manipulation tool. It will help us to view, clean, and apply analysis techniques to the datasets.
-- NumPy: NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices. It will help us in the mathematical calculation and data analysis.
-- Matplotlib & Seaborn: These two libraries are so powerful in visualizing data and showing the relationship between features.
-- Scikit-learn & XGBoost: Fabulous tools for predictive data analysis. They will lead us to create a fantastic Machine Learning model predicting a continuous-valued attribute as we will see later. 
+- **Pandas**: Fast, powerful, flexible, and easy to use open-source data analysis and manipulation tool. It will help us to view, clean, and apply analysis techniques to the datasets.
+- **NumPy**: NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices. It will help us in the mathematical calculation and data analysis.
+- **Matplotlib & Seaborn**: These two libraries are so powerful in visualizing data and showing the relationship between features.
+- **Scikit-learn & XGBoost**: Fabulous tools for predictive data analysis. They will lead us to create a fantastic Machine Learning model predicting a continuous-valued attribute as we will see later. 
 
 
 ## Boston and Seattle Datasets 
