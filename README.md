@@ -24,7 +24,8 @@ The data has many null value, irrelated and dependant features. As a result, we 
 ## Data Analysis:
 After overviewing and cleaning the data we applied the analysis and visualization techniques to understand our data in more deep and infere the relationship between features. The following results illustrate some of the main points regarding our analysis:
 - Gaining high reviews in all sectors seems to be the major part of being a superhost.
-- At all, as the response time decreases, the host will be more eligible to be super.
+- At all, as the response time decreases, the host will be more eligible to get the super badge https://assets.airbnb.com/help/icons/superhost.png.
+
 
 
 *Note*: Pandas and Matplotlib are mainly used with NumPy and Seaborn in this step. 
