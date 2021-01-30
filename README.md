@@ -11,11 +11,11 @@ Airbnb is an online marketplace that connects people who want to rent out their 
 
 ## Boston and Seattle Datasets 
 The data (for both cities) contain 92 numerical, categorical, and DateTime features. In this project, we will answer 3 questions using these features and records:
-- How To Be a Superhost (Superhosts are experienced hosts who provide a shining example for other hosts, and extraordinary experiences for their guests. See https://www.airbnb.com/help/article/828/what-is-a-superhost for more details)
+**- How To Be a Superhost** (Superhosts are experienced hosts who provide a shining example for other hosts, and extraordinary experiences for their guests. See https://www.airbnb.com/help/article/828/what-is-a-superhost for more details)
 
-- How the Price/Night Change Over the Year in Both Cities
+**- How the Price/Night Change Over the Year in Both Cities**
 
-- Predicting Property Price/Night in Seattle & Boston Using Machine Learning Model
+**- Predicting Property Price/Night in Seattle & Boston Using Machine Learning Model**
 
 The data has many null values, irrelated and dependant features. As a result, we started with a data wrangling process where we dropped the out-of-interest features, mostly null columns, and records, and imputed the others using median and mode depending on the column (feature) type.
 
