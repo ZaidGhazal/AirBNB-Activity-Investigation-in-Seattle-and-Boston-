@@ -39,7 +39,9 @@ In this step, we created a Machine Learning model to predict property price/nigh
 - Not only XGBoostRegressor is used, but we tried many algorithms with the grid search.
 - We might get better results if we build 2 models for each city.
 
-
+#### Finally, welcome to the article I published on [Medium](https://medium.com/@zaid.eng2018/lets-be-a-superhost-on-airbnb-616afa7fae4f)  illustrating the project results in simple language.
+     
+     
 ## References:
  - Boston Data: https://www.kaggle.com/airbnb/boston
  - Seattle Data: https://www.kaggle.com/airbnb/seattle/data
