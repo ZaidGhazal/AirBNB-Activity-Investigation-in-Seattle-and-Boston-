@@ -24,12 +24,16 @@ The data has many null value, irrelated and dependant features. As a result, we 
 ## Data Analysis:
 After overviewing and cleaning the data we applied the analysis and visualization techniques to understand our data in more deep and infere the relationship between features. The following results illustrate some of the main points regarding our analysis:
 - Gaining high reviews in all sectors seems to be the major part of being a superhost.
-- At all, as the response time decreases, the host will be more eligible to get the super badge ![Image of badge](https://assets.airbnb.com/help/icons/superhost.png).
+- At all, as the response time decreases, the host will be more eligible to get the super badge.
 - We could see that both cities have fluctuating prices over the year.
 - Prices on July, June, and Augest become higher than the rest of the year months in both cities.
 - Both cities have the traffic peak on summer due to tourism, medication, or business.
 
 ## Modeling:
-In this step we created a Machine Learning model to predict property price/night in Seattle & Boston. After many trials that took hours using different sklearn ML algorithms and scaling techniques, we achieved the best model with r^2 = 0.55  
+In this step we created a Machine Learning model to predict property price/night in Seattle & Boston. After many trials that took hours using different sklearn ML algorithms and scaling techniques, we achieved the best model with **r^2 = 0.55**  
+
+- XGBoostRegressor was the best algorithm as we could apply the grid search and use GPU to make finding the best params is possible (actually with CPU it took ages)
+- Not only XGBoostRegressor is used, but we tried many algorithms with the grid search
+- We might get better results if we build 2 models for each city
 
 *Note*: Pandas and Matplotlib are mainly used with NumPy and Seaborn in this step. 
