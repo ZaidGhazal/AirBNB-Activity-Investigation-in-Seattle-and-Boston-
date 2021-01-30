@@ -6,7 +6,7 @@ Airbnb is an online marketplace that connects people who want to rent out their 
 - Pandas: Fast, powerful, flexible and easy to use open source data analysis and manipulation tool. It will help us to view, clean and apply analysis techniques on the datasets.
 - NumPy: NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices. It will help us in the mathmatical calculation and data analysis.
 - Matplotlib & Seaborn: These two libraries are so powerful in visualizing data and showing the relationship between features.
-- Scikit-learn: Fabulous tool for predictive data analysis. It has many algorithms that will lead us to create fantastic Machine Learning model predicting a continuous-valued attribute as we will see later. 
+- Scikit-learn & XGBoost: Fabulous tools for predictive data analysis. They will lead us to create fantastic Machine Learning model predicting a continuous-valued attribute as we will see later. 
 
 
 ## Boston and Seattle Datasets 
@@ -29,11 +29,13 @@ After overviewing and cleaning the data we applied the analysis and visualizatio
 - Prices on July, June, and Augest become higher than the rest of the year months in both cities.
 - Both cities have the traffic peak on summer due to tourism, medication, or business.
 
+*Note*: Pandas and Matplotlib are mainly used with NumPy and Seaborn in this step. 
+
 ## Modeling:
 In this step we created a Machine Learning model to predict property price/night in Seattle & Boston. After many trials that took hours using different sklearn ML algorithms and scaling techniques, we achieved the best model with **r^2 = 0.55**  
 
-- XGBoostRegressor was the best algorithm as we could apply the grid search and use GPU to make finding the best params is possible (actually with CPU it took ages)
-- Not only XGBoostRegressor is used, but we tried many algorithms with the grid search
-- We might get better results if we build 2 models for each city
+- XGBoostRegressor was the best algorithm as we could apply the grid search and use GPU to make finding the best params is possible (actually with CPU it took ages).
+- Not only XGBoostRegressor is used, but we tried many algorithms with the grid search.
+- We might get better results if we build 2 models for each city.
 
-*Note*: Pandas and Matplotlib are mainly used with NumPy and Seaborn in this step. 
+
