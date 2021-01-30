@@ -11,6 +11,7 @@ Airbnb is an online marketplace that connects people who want to rent out their 
 
 ## Boston and Seattle Datasets 
 The data (for both cities) contain 92 numerical, categorical, and DateTime features. In this project, we will answer 3 questions using these features and records:
+
 **- How To Be a Superhost** (Superhosts are experienced hosts who provide a shining example for other hosts, and extraordinary experiences for their guests. See https://www.airbnb.com/help/article/828/what-is-a-superhost for more details)
 
 **- How the Price/Night Change Over the Year in Both Cities**
