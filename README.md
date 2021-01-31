@@ -23,7 +23,7 @@ The data has many null values, irrelated and dependant features. As a result, we
 *Note:*There are 2 files for each city, `listings_Seattle.csv / listings_Boston.csv` and `calendar_Seattle.csv / calendar_Boston.csv` where `listings_` has the 92 features about hosts, properties details, and prices and they are used to figure out How To Be a Super Host and Predicting Property Price/Night in Seattle & Boston Using Machine Learning Model. `calendar_` files contain the price/night for each property during a period of time and they are used for identifying the Price/Night Change Over the Year in Both Cities. 
 
 ## Project Notebook
-All work done can be found in the `Write a Data Science Blog Post.ipynb` notebook. It contains the data overview, preprocessing, analysis & visualization, model building steps, and more. Each code segment functionality is illustrated clearly by comments, so I encourage you to view the file as it possesses the core concepts and results of this project.
+All work done can be found in the `Write a Data Science Blog Post.ipynb` notebook. It contains the data overview, preprocessing, analysis & visualization, model building steps, and more. Each code segment functionality is illustrated clearly by comments, so I encourage you to view the file as it possesses the core concepts and results of this project. Note that the file is also included as HTML (`Write a Data Science Blog Post.html`) for better presentation.
 
 ## Data Analysis
 After overviewing and cleaning the data we applied the analysis and visualization techniques to understand our data deeper and infer the relationship between features. The following results illustrate some of the main points regarding our analysis:
