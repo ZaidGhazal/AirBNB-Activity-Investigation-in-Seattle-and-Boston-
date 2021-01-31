@@ -2,7 +2,7 @@
 ## Introduction
 Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in that locale. It currently covers more than 100,000 cities and 220 countries worldwide. People who own properties are called hosts.  Customers usually look for accommodation in the desired area and choose what they prefer according to facilities, price/night, transportation availability, and so on. In this project, we will discover and analyze the data provided by Airbnb for 2 famous cities, Seattle and Boston in the US to answer some business questions related to Airbnb activities, using Python.
 
-## Libraries Used:
+## Libraries Used
 - **Pandas**: Fast, powerful, flexible, and easy to use open-source data analysis and manipulation tool. It will help us to view, clean, and apply analysis techniques to the datasets.
 - **NumPy**: NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices. It will help us in the mathematical calculation and data analysis.
 - **Matplotlib & Seaborn**: These two libraries are so powerful in visualizing data and showing the relationship between features.
@@ -22,7 +22,10 @@ The data has many null values, irrelated and dependant features. As a result, we
 
 *Note:*There are 2 files for each city, `listings_Seattle.csv / listings_Boston.csv` and `calendar_Seattle.csv / calendar_Boston.csv` where `listings_` has the 92 features about hosts, properties details, and prices and they are used to figure out How To Be a Super Host and Predicting Property Price/Night in Seattle & Boston Using Machine Learning Model. `calendar_` files contain the price/night for each property during a period of time and they are used for identifying the Price/Night Change Over the Year in Both Cities. 
 
-## Data Analysis:
+## Project File
+All work done can be found in the `Write a Data Science Blog Post.ipynb` notebook. It contains the data overview, preprocessing, analysis & visualization, model building steps, and more. Each code segment functionality is illustrated clearly by comments, so I encourage you to view the file as it possesses the core concepts and results of this project.
+
+## Data Analysis
 After overviewing and cleaning the data we applied the analysis and visualization techniques to understand our data deeper and infer the relationship between features. The following results illustrate some of the main points regarding our analysis:
 - Gaining high reviews in all sectors seems to be the major part of being a superhost.
 - At all, as the response time decreases, the host will be more eligible to get the super badge.
@@ -32,7 +35,7 @@ After overviewing and cleaning the data we applied the analysis and visualizatio
 
 *Note*: Pandas and Matplotlib are mainly used with NumPy and Seaborn in this step. 
 
-## Modeling:
+## Modeling
 In this step, we created a Machine Learning model to predict property price/night in Seattle & Boston. After many trials that took hours using different sklearn ML algorithms and scaling techniques, we achieved the best model with **r^2 = 0.55**  
 
 - XGBoostRegressor was the best algorithm as we could apply the grid search and use GPU to make finding the best params is possible (actually with CPU it took ages).
@@ -42,6 +45,6 @@ In this step, we created a Machine Learning model to predict property price/nigh
 #### Finally, welcome to the article I published on [Medium](https://medium.com/@zaid.eng2018/lets-be-a-superhost-on-airbnb-616afa7fae4f)  illustrating the project results in simple language.
      
      
-## References:
+## References
  - Boston Data: https://www.kaggle.com/airbnb/boston
  - Seattle Data: https://www.kaggle.com/airbnb/seattle/data
